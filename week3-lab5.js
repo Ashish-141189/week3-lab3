@@ -67,4 +67,13 @@ const evenNumbers1 = numbers.filter(function(num) {
     return num % 2 === 0;
   });
   console.log("Even numbers:", evenNumbers1);
-  
+
+// Verify child from the age listing
+const ages1 = [12, 33, 16, 40, 8];
+
+function checkAdult(age) {
+  return age <= 18;
+}
+
+const child = ages.filter(checkAdult);
+console.log("Child:", child);
